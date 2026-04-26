@@ -40,7 +40,7 @@ export default function Home() {
       {showInfo && (
         <div className="absolute top-20 right-5 w-64 bg-[#141428]/90 border border-[#ff6b35]/30 rounded-xl p-4 text-gray-200 text-sm z-10 backdrop-blur-md">
           <div className="flex justify-between items-center mb-3">
-            <h3 className="text-[#ff6b35] font-semibold">Species: Astrogator</h3>
+            <h3 className="text-[#ff6b35] font-semibold">Species: Eridian</h3>
             <button
               style={{ border: "none", background: "transparent", cursor: "pointer" }}
               onClick={() => setShowInfo(false)}
